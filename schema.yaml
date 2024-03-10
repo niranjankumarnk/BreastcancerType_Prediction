@@ -1,35 +1,36 @@
 COLUMNS:
-    id : int64  
-    radius_mean : float64
-    texture_mean : float64
-    perimeter_mean  : float64
-    area_mean :  float64
-    smoothness_mean  :  float64
-    compactness_mean : float64
-    concavity_mean :  float64
-    concave points_mean:   float64
-    symmetry_mean :   float64
-    fractal_dimension_mean :   float64
-    radius_se : float64
-    texture_se  : float64
-    perimeter_se  :  float64
-    area_se  :  float64
-    smoothness_se :  float64
-    compactness_se  :  float64
-    concavity_se : float64
-    concave points_se :  float64
-    symmetry_se  : float64
-    fractal_dimension_se :  float64
-    radius_worst :  float64
-    texture_worst  :  float64
-    perimeter_worst :   float64
-    area_worst  :   float64
-    smoothness_worst  :   float64
-    compactness_worst :    float64
-    concavity_worst :   float64
-    concave points_worst  :   float64
-    symmetry_worst  :  float64
-    fractal_dimension_worst  :  float64
+    id: int64
+    radius_mean: float64
+    texture_mean: float64
+    perimeter_mean: float64
+    area_mean: float64
+    smoothness_mean: float64
+    compactness_mean: float64
+    concavity_mean: float64
+    concave points_mean: float64
+    symmetry_mean: float64
+    fractal_dimension_mean: float64
+    radius_se: float64
+    texture_se: float64
+    perimeter_se: float64
+    area_se: float64
+    smoothness_se: float64
+    compactness_se: float64
+    concavity_se: float64
+    concave points_se: float64
+    symmetry_se: float64
+    fractal_dimension_se: float64
+    radius_worst: float64
+    texture_worst: float64
+    perimeter_worst: float64
+    area_worst: float64
+    smoothness_worst: float64
+    compactness_worst: float64
+    concavity_worst: float64
+    concave points_worst: float64
+    symmetry_worst: float64
+    fractal_dimension_worst: float64
+
 
 TARGET_COLUMN:
     diagnosis: object 
