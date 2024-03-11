@@ -1,13 +1,13 @@
 {
-    "Accuracy": 0.965034965034965,
-    "clas_report": "              precision    recall  f1-score   support\n\n           0       0.98      0.97      0.97        90\n           1       0.94      0.96      0.95        53\n\n    accuracy                           0.97       143\n   macro avg       0.96      0.96      0.96       143\nweighted avg       0.97      0.97      0.97       143\n",
+    "Accuracy": 0.9370629370629371,
+    "clas_report": "              precision    recall  f1-score   support\n\n           0       0.91      0.99      0.95        84\n           1       0.98      0.86      0.92        59\n\n    accuracy                           0.94       143\n   macro avg       0.95      0.93      0.93       143\nweighted avg       0.94      0.94      0.94       143\n",
     "conf_matrix": [
         [
-            87,
-            3
+            83,
+            1
         ],
         [
-            2,
+            8,
             51
         ]
     ]
