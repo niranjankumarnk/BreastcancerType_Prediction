@@ -1,6 +1,7 @@
 from mlProject.config.configuration import ConfigurationManager
 from mlProject.components.data_transformation import DataTransformation
 from mlProject import logger
+from pathlib import Path
 
 
 
@@ -29,8 +30,8 @@ class DataTransformationTrainingPipeline:
 if __name__ == '__main__':
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
-        obj = DataTransformationTrainingPipeline()
-        obj.main()
+        data_transformation = DataTransformationTrainingPipeline()
+        data_transformation.main()
         logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
     except Exception as e:
         logger.exception(e)
