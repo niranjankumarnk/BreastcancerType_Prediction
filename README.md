@@ -94,11 +94,7 @@ $ pip install -r requirements.txt
 
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = Breast Cancer-app
 
 
 
-
-
-
- git config --global user.name "entbappy"
