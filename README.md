@@ -1,4 +1,4 @@
-# mldemo
+# Machine Learning Project
 
 ## Workflows
 1. update config.yaml
